@@ -14,5 +14,6 @@ def display():
     name=name_entry.get()
     greet="hey!"+name
     message="\n congratulations for your new account"
-    textbox.insert(END,greet)
-    textbox.insert(END,message)
+    frame.insert(END,greet)
+    frame.insert(END,message)
+window.mainloop()
